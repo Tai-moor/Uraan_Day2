@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;600;700&display=swap");
-/* Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -48,7 +48,7 @@ body {
   font-size: 22px;
   font-weight: 700;
   color: #1f2022;
-  letter-spacing: 5px;
+  letter-spacing: 6px;
 }
 
 .subtitle {
@@ -95,7 +95,6 @@ body {
   padding: 0 50px;
 }
 
-/* Individual feature row */
 .feature-row {
   display: flex;
   align-items: center;
@@ -104,7 +103,6 @@ body {
   height: 550px;
 }
 
-/* Image container */
 .feature-image {
   flex: 1;
   min-width: 400px;
@@ -118,8 +116,6 @@ body {
   object-fit: contain;
   transform: scale(1.02);
 }
-
-/* Text container */
 
 .feature-text {
   flex: 1;
@@ -138,7 +134,7 @@ body {
   color: #1f2022;
   font-weight: 600;
   padding-bottom: 30px;
-  letter-spacing: 5px;
+  letter-spacing: 6px;
 }
 
 .feature-text p {
@@ -156,6 +152,7 @@ body {
   justify-content: center;
   text-align: center;
 }
+
 .future-section {
   padding: 0px 20px 100px 20px;
 }
@@ -169,7 +166,6 @@ body {
   flex-wrap: wrap;
 }
 
-/* LEFT SIDE: Image */
 .image-wrapper {
   flex: 1;
   min-width: 400px;
@@ -183,7 +179,6 @@ body {
   object-fit: contain;
 }
 
-/* RIGHT SIDE: Text and Icons */
 .text-block {
   flex: 1;
   min-width: 400px;
@@ -217,6 +212,7 @@ body {
   line-height: 100%;
   letter-spacing: 1px;
 }
+
 .text-block p .one {
   margin-left: 17px;
 }
